@@ -42,8 +42,6 @@ function createItem(item) {
 		listElement.prepend(newItem);
 		const item = getTasksFromDOM();
 		saveTasks(item)
-
-
 	})
 
 	editButton.addEventListener('click', () => {
